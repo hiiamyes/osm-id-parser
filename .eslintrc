@@ -1,0 +1,13 @@
+/**
+yarn add -D eslint prettier eslint-config-prettier eslint-plugin-prettier eslint-plugin-jest
+*/
+{
+  "extends": ["prettier"],
+  "plugins": ["prettier", "jest"],
+  "rules": {
+    "prettier/prettier": "warn"
+  },
+  "env": {
+    "jest/globals": true
+  }
+}

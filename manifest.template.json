@@ -1,0 +1,13 @@
+{
+  "name": "osm-id-parser",
+  "description": "osm-id-parser",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "homepage_url": "https://yeslee.me",
+  "content_scripts": [
+    {
+      "matches": ["https://openstreetmap.org/edit"],
+      "js": ["build/content_scripts.bundle.js"]
+    }
+  ]
+}

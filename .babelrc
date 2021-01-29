@@ -1,0 +1,6 @@
+// yarn add -D babel-loader @babel/core
+
+{
+  "presets": ["@babel/preset-env", "@babel/preset-react"],
+  "plugins": []
+}
