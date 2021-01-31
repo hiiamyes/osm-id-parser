@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "osm-id-parser",
+  "version": "0.0.1",
+  "description": "A Chrome extension for parsing id of nodes and paths from OpenStreetMap web editor.",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "homepage_url": "https://yeslee.me",
+  "content_scripts": [
+    {
+      "matches": ["https://openstreetmap.org/*"],
+      "js": ["build/content_scripts.bundle.js"]
+    }
+  ]
+}
