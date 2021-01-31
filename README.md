@@ -20,6 +20,8 @@ Enable developer mode
 
 [Load unpacked extension](https://developer.chrome.com/extensions/getstarted#unpacked)
 
+Open [OpenStreetMap web editor](https://www.openstreetmap.org/edit)
+
 ## Debug
 
 ## Deploy

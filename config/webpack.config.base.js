@@ -16,7 +16,7 @@ module.exports = () => {
     },
     output: {
       path: path.resolve(__dirname, "../build"),
-      filename: "[name].bundle.[chunkhash].js",
+      filename: "[name].bundle.js",
     },
     resolve: {
       modules: ["node_modules", paths.appNodeModules],
@@ -63,9 +63,9 @@ module.exports = () => {
       ],
     },
     plugins: [new Dotenv()],
-    optimization: {
+    // optimization: {
       // https://webpack.js.org/plugins/split-chunks-plugin/
-      splitChunks: {
+      // splitChunks: {
         //     cacheGroups: {
         //       vendor: {
         //         test: /[\\/]node_modules[\\/]/,
@@ -73,16 +73,16 @@ module.exports = () => {
         //         chunks: "all",
         //       },
         //     },
-      },
-      runtimeChunk: "single",
-    },
-    externals: {
+      // },
+      // runtimeChunk: "single",
+    // },
+    // externals: {
       // react: "React",
       // "react-dom": "ReactDOM",
       // leaflet: "Leaflet",
       // d3: "d3",
       // "lodash/fp": "lodash",
       // "styled-components": "styled",
-    },
+    // },
   };
 };

@@ -11,7 +11,7 @@
   "homepage_url": "https://yeslee.me",
   "content_scripts": [
     {
-      "matches": ["https://openstreetmap.org/edit"],
+      "matches": ["https://openstreetmap.org/*"],
       "js": ["build/content_scripts.bundle.js"]
     }
   ]
