@@ -1,4 +1,4 @@
-// yarn add -D babel-loader @babel/core
+// yarn add -D babel-loader @babel/core @babel/preset-env @babel/preset-react
 
 {
   "presets": ["@babel/preset-env", "@babel/preset-react"],

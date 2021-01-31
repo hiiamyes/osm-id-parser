@@ -1,4 +1,4 @@
-webpack --config webpack.config.prod.js
+NODE_ENV=production webpack --config config/webpack.config.prod.js
 cp manifest.json manifest.dev.json
 cp manifest.prod.json manifest.json
 cd ..

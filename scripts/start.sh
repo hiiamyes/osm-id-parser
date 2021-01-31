@@ -1,1 +1,1 @@
-webpack --config webpack.config.dev.js
+NODE_ENV=development webpack --config config/webpack.config.dev.js
